@@ -1,0 +1,6 @@
+.homeContainer {
+    background-image: url("./Images/gray_jean.png");
+    /* Background pattern from Toptal Subtle Patterns */
+    background-position: center;
+    background-repeat: repeat; 
+}
