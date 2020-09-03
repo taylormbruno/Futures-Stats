@@ -4,6 +4,8 @@ import { Container } from "react-bootstrap";
 import Header from './Components/Header';
 import Guide from './Pages/Guide';
 import Home from './Pages/Home';
+import Admin from './Pages/Admin';
+import "./App.css";
 
 function App() {
   return (
@@ -13,6 +15,9 @@ function App() {
       <Switch>
       <Route exact path="/guide">
         <Guide />
+      </Route>
+      <Route path="/admin">
+        <Admin />
       </Route>
       <Route path={["/home", "/"]}>
         <Home />

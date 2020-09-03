@@ -1,5 +1,8 @@
 const path = require("path");
 const router = require("express").Router();
+const imageRoute = require('./image');
+
+router.use('/image', imageRoute);
 
 router.use(function(req, res) {
     // If no API routes are hit, send the React app
@@ -8,6 +11,6 @@ router.use(function(req, res) {
     } else {
       res.sendFile(path.join(__dirname, "../client/public/index.html"));
     }
-  });
-  
-  module.exports = router;
+});
+
+module.exports = router;

@@ -1,0 +1,16 @@
+.admin-create-blog {
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    padding: 30px
+}
+#upload-image-form {
+background-color: darkgray;
+border-radius: 5px;
+padding: 5px;
+}
+#upload-image {
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    height: 100px;
+    margin: 5% 0;
+}
